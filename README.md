@@ -9,7 +9,7 @@ Form.html       Signup
 thankyou.html   Thank You Page
 
 
-Github Link:            https://github.com/StreetMindZh/book_a_course.git
-Domain for Testing      https://streetmindzh.github.io/book_a_course/
+Github Link:            
+Domain for Testing      
 
 
