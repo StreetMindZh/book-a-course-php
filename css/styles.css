@@ -1,0 +1,146 @@
+    body {
+        
+        background-color: rgba(130, 129, 129, 0.152);
+        background-image: url("images/thankyou.jpg"); /* The image used */
+        background-size: cover; /* Resize the background image to cover the entire */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-position: center center; /* margin image left image */
+        height: 100vh;
+
+    
+    }
+    .content {
+        margin-top: 50px;
+        max-width: 300px;
+        margin: auto;
+        background: rgba(122, 122, 122, 0.608);
+        padding: 10px;
+
+       
+        
+    }
+
+    h1   {
+      
+        color: rgb(212, 212, 212);
+        background-color: rgb(0, 0, 0);
+        font-size: 15px;
+    }
+
+    p    {
+    color: rgb(238, 238, 238);
+    }
+    label {
+    color: rgb(255, 255, 255)
+    }
+
+    img {
+        padding-bottom: 50px;
+        display: block;
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        opacity: 1;
+    }
+
+    .alert-success {
+        --bs-alert-color: #0f513200;
+        --bs-alert-bg: rgba(13, 109, 253, 0);
+        --bs-alert-border-color: rgba(13, 109, 253, 0);
+    }
+
+    /* Style the video: 100% width and height to cover the entire window */
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100vh;
+        min-height: 100vh;
+        background-size: cover;
+        opacity: 0.5;
+        z-index: -1;
+    }
+    
+
+     /* start icon bar */
+
+        .icon-bar {
+            width: 45px; /* Set a specific width */
+            background-color: rgba(239, 239, 239, 0.435); /* Dark-grey background */
+            z-index:   2 ;
+            position: absolute;
+        }
+        
+        .icon-bar a {
+            display: block; /* Make the links appear below each other instead of side-by-side */
+            text-align: center; /* Center-align text */
+            padding: 16px; /* Add some padding */
+            transition: all 0.3s ease; /* Add transition for hover effects */
+            color: rgba(84, 85, 83, 0.314); /* White text color */
+            font-size: 16px; /* Increased font-size */
+            z-index: 3;
+        }
+        
+        .icon-bar a:hover {
+            background-color: rgba(0, 0, 0, 0.508); /* Add a hover color */
+        }
+        
+        .active {
+            background-color: #04aa6de9; /* Add an active/current color */
+        }
+      /* end icon bar */
+
+    
+ /* Style the video:2  100% width and height to cover the entire window */
+ #myVideo2 {
+    position: fixed ;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+/* Add some content at the bottom of the video/page */
+  .content2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    background: rgba(51, 158, 32, 0.692);
+    color: #f1f1f1;
+    width: 90%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+
+/* Style the button used to pause/play the video */
+  #myBtn2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    font-size: 21px;
+    padding: 20px;
+    border: none;
+    background: rgb(7, 59, 17);
+    color: #fff;
+    cursor: pointer;
+    align-content: center;
+  }
+
+  #myBtn2:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  ol, ul {
+    padding-left: 2rem;
+    color: white;
+}
+
+.alert-success {
+  --bs-alert-color: #0f513200;
+  --bs-alert-bg: rgba(13, 109, 253, 0);
+  --bs-alert-border-color: rgba(13, 109, 253, 0);
+  color: white;
+}
